@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-<html lang = "pt-br">
+<html lang="pt-br">
 	<head>
 		<title> Teste </title>
 		<meta charset = "utf-8">
-		<link rel = "stylesheet" type = "text/css" href = "bootstrap/css/bootstrap.min.css">
-		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href = "#">Minha Página</a>
+		<nav class="navbar navbar-expand-lg navbar-light margin">
+			<a class="navbar-brand" href="#">
+				<img src="img/icon.png" width="80" height="80">
+			</a>
+			
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#quemsomos">Quem somos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#parceiros">Parceiros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#servicos">Serviços</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
+		
+		<section id="quemsomos">
+			<div class="container-fluid quem-somos text-center margin">
+				<h3>Quem Somos</h3><br>
+				<img src="img/time.jpg" class="rounded-circle" width="300" height="300">
+				<br><br><h4>Somos um time comprometido com os resultados</h4>
+			</div>
+		</section>
+		
+		<selection id="parceiros">
+			<div class="container-fluid text-center margin parceiros">
+				<h3>Parceiros</h3><br>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="img/icon4.png" width="50%">
+						</div>
+						<div class="col-lg-4">
+							<img src="img/icon3.png" width="50%">
+						</div>
+						<div class="col-lg-4">
+							<img src="img/icon2.png" width="50%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</selection>
+		
+		<selection id="servicos">
+			<div class="container-fluid text-center margin servicos">
+				<h3>Serviços</h3><br>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<p>Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste</p>
+							<img src="img/app.jpg" class="rounded-circle" width="300" height="300">
+						</div>
+						<div class="col-lg-4">
+							<p>Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste</p>
+							<img src="img/site.jpg" class="rounded-circle" width="300" height="300">
+						</div>
+						<div class="col-lg-4">
+							<p>Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste</p>
+							<img src="img/site2.jpg" class="rounded-circle" width="300" height="300">
+						</div>
+					</div>
+				</div>
+			</div>
+		</selection>
+		
+		<footer class="container-fluid text-center footer margin">
+			<p>Desenvolvido por Michelly Hiratsuka Zorzi</p>
+		</footer>
 	</body>
 </html>
